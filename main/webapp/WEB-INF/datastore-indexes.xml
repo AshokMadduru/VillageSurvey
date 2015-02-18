@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+  <!-- filter by 1 condition  -->
+	
+    
+       <datastore-index kind="SarpanchProfile" ancestor="false" source="manual">
+        <property name="password" direction="asc"/>
+        <property name="Name" direction="asc"/>
+    </datastore-index>
+     <datastore-index kind="AdminProfile" ancestor="false" source="manual">
+        <property name="userName" direction="asc"/>
+        <property name="password" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>
