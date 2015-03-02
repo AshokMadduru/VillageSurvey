@@ -3,7 +3,8 @@
     <application>village-survey-trial</application>
     <version>1</version>
     <threadsafe>true</threadsafe>
-
+	<sessions-enabled>true</sessions-enabled>
+	<async-session-persistence enabled="true" />
     <system-properties>
         <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
     </system-properties>

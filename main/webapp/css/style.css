@@ -30,3 +30,13 @@ form {
     width: 90px;
     display: inline-block;
 }
+.center-login{
+width:350px;
+height:180px;
+position:absolute;
+left:50%;
+top:50%;
+right:50%;
+bottom:50%;
+margin:-155px 0 0 -175px;
+}

@@ -1,44 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Village Survey</title>
-    <script type="text/javascript" src="/js/base.js"></script>
-    <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap.css">
-    <link type="text/css" rel="stylesheet" href="/bootstrap/css/bootstrap-responsive.css">
-    <link type="text/css" rel="stylesheet" href="/css/style.css">
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<title>Village Survey</title>
+<script type="text/javascript" src="/js/admin.js"></script>
+<link type="text/css" rel="stylesheet"
+	href="/bootstrap/css/bootstrap.css">
+<link type="text/css" rel="stylesheet"
+	href="/bootstrap/css/bootstrap-responsive.css">
+<link type="text/css" rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="brand" href="#">Admin Profile</a>
-        </div>
-    </div>
-</div>
-<div class="container">
 
-    <div id="outputLog"></div>
+	<div class="container">
 
-    
- <form action="javascript:void(0);">
-        <h2>Admin Profile</h2>
-        <div><span class="label">Name: </span><input id="name" /></div>
-        <div><span class="label">User Name: </span><input id="userName" /></div>
-        <div><span class="label">Phone No: </span><input id="phoneNo" /></div>
-        <div><span class="label">Password: </span><input id="password" /></div>
-        <div><span class="label">Re-Password: </span><input id="rePassword" /></div>
-        <div><input id="save_admin_profile" type="button" value="please wait"></div>
-    </form>
+		<div id="outputLog"></div>
 
-<P><input id="input_greet_generically" type="button" value="please wait" 
-  onclick="will_be_set_after_endpoints_apis_loaded"></P>
-   
-    <script src="https://apis.google.com/js/client.js?onload=init"></script>
-</div>
+
+
+		<script src="https://apis.google.com/js/client.js?onload=checkUserSession"></script>
+	</div>
 </body>
 </html>
